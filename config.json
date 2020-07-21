@@ -11,8 +11,8 @@
   "runSpeed": 1.50,
   "maxHeartbeatInterval": 300000,
   "verbose": true,
-  "WIDTH": 2000,
-  "HEIGHT": 2500,
+  "WIDTH": 3000,
+  "HEIGHT": 3000,
   "MODE": "tdm",
   "TEAMS": 2,
   "RANDOM_COLORS": false,
@@ -21,20 +21,23 @@
     ["norm", "norm","norm", "norm","norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm"    ],
     ["norm", "norm","norm", "norm","norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm"    ],
     ["norm", "norm","norm", "norm","norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm"    ],
-    ["norm","norm","norm","norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm",  "norm"    ],
-    ["norm", "norm","norm", "norm","norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm"    ],
-    ["norm", "norm","norm", "norm","norm", "nest", "nest", "nest", "norm", "norm", "norm", "norm",  "norm"    ],
-    ["norm", "norm","norm", "norm","norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm"    ],
-    ["norm", "norm","norm", "norm","norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm"    ],
+    ["norm", "norm","norm","norm", "norm", "nest", "norm", "nest", "norm", "norm", "norm", "norm",  "norm"    ],
+    ["norm", "norm","norm","norm", "norm", "nest", "norm", "nest", "norm", "norm", "norm", "norm",  "norm"    ],
+    ["norm", "norm","norm","nest", "nest", "norm", "norm", "norm", "nest", "nest", "norm", "norm",  "norm"    ],
+    ["norm","norm","norm","norm", "norm", "bas1", "lgb1", "bas1", "norm", "norm", "norm",  "norm",  "norm"    ],
+    ["norm","norm","norm","nest", "nest", "norm", "norm", "norm", "nest", "nest", "norm",  "norm",  "norm"    ],
+    ["norm","norm","norm","norm", "norm", "nest", "norm", "nest", "norm", "norm", "norm",  "norm",  "norm"    ],
+    ["norm", "norm","norm","norm", "norm", "nest", "norm", "nest", "norm", "norm", "norm", "norm",  "norm"    ],
+    ["norm", "norm","norm","norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm"    ],
     ["norm","norm","norm", "norm","norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm",  "norm"    ],
-    ["norm","norm","norm", "norm","norm", "bas1", "lgb1", "bas1", "norm", "norm", "norm",  "norm",  "norm"    ]
+    ["norm","norm","norm", "norm","norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm",  "norm"    ]
 
 
 
     
   ],
   "X_GRID": 13,
-  "Y_GRID": 10,
+  "Y_GRID": 13,
   "DAMAGE_CONSTANT": 0.6,
   "KNOCKBACK_CONSTANT": 1,
   "ROOM_BOUND_FORCE": 0.01,

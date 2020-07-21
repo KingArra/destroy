@@ -4724,7 +4724,7 @@ var maintainloop = (() => {
                     };
             let c = (log, team) => { 
                 let o = new Entity(log);
-                    o.define(Class.baseProtector);
+                    o.define(Class.sprayprotector);
                     o.team = -team;
                     o.color = [10, 11, 12, 15][team-1];
             };

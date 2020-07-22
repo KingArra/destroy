@@ -30,7 +30,7 @@
     ["norm", "norm","norm","norm", "norm", "nest", "norm", "nest", "norm", "norm", "norm", "norm",  "norm"    ],
     ["norm", "norm","norm","norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm"    ],
     ["norm","norm","norm", "norm","norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm",  "norm"    ],
-    ["norm","norm","norm", "norm","norm", "bas1", "lgb1", "bas1", "norm", "norm", "norm",  "norm",  "norm"    ]
+    ["norm","norm","norm", "norm","bas1", "norm", "lgb1", "norm", "bas1", "norm", "norm",  "norm",  "norm"    ]
 
 
 

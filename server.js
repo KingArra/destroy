@@ -4635,11 +4635,11 @@ var maintainloop = (() => {
 
                       break;
                      case 2: 
-                        choice = [[Class.elite_gunner], 3, 'castle', 'nest'];
+                        choice = [[Class.elite_sprayer], 3, 'castle', 'nest'];
 
                         break;
                      case 3: 
-                        choice = [[Class.elite_gunner], 6, 'castle', 'nest'];
+                        choice = [[Class.elite_destroyer], 6, 'castle', 'nest'];
 
                     break;
                      case 4: 
@@ -4667,18 +4667,30 @@ var maintainloop = (() => {
                         break;
                      case 10: 
                         choice = [[Class.elite_gunner], 15, 'castle', 'nest'];
-                                            sockets.broadcast('Final Wave: All out Attack!');
-
+                    
                         break;
                      case 11: 
+                        choice = [[Class.elite_gunner], 16, 'castle', 'nest'];
+                                       
+                              break;
+                     case 12: 
+                        choice = [[Class.elite_gunner], 16, 'castle', 'nest'];
+                                        break;
+                     case 13: 
+                        choice = [[Class.elite_gunner], 16, 'castle', 'nest'];
+                                            sockets.broadcast('Final Wave: All out Attack!');
+
+
+                        break;
+                     case 14: 
                         choice = [[Class.closerarena], 10, 'a', 'norm'];
-                                            sockets.broadcast('BLUE DEFENDERS HAVE WON THE GAME!');
+                                            sockets.broadcast('BLUE HAS WON THE GAME!');
 
                         sockets.broadcast('Arena Closed: No players can join!');
 
 
                         break;
-                     case 12: 
+                     case 15: 
                         choice = [[Class.closerarena], 12, 'a', 'norm'];
                                             sockets.broadcast('Closing!');
 

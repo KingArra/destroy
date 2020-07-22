@@ -16,7 +16,7 @@ const util = require('./lib/util');
 const ran = require('./lib/random');
 const hshg = require('./lib/hshg');
 
-// Let's get a cheaper array removal thing
+// Let's get a cheaper array removal things
 Array.prototype.remove = index => {
     if(index === this.length - 1){
         return this.pop();

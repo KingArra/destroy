@@ -4667,30 +4667,18 @@ var maintainloop = (() => {
                         break;
                      case 10: 
                         choice = [[Class.elite_gunner], 15, 'castle', 'nest'];
-                    
-                        break;
-                     case 11: 
-                        choice = [[Class.elite_gunner], 16, 'castle', 'nest'];
-                                       
-                              break;
-                     case 12: 
-                        choice = [[Class.elite_gunner], 16, 'castle', 'nest'];
-                                        break;
-                     case 13: 
-                        choice = [[Class.elite_gunner], 16, 'castle', 'nest'];
                                             sockets.broadcast('Final Wave: All out Attack!');
 
-
                         break;
-                     case 14: 
+                     case 11: 
                         choice = [[Class.closerarena], 10, 'a', 'norm'];
-                                            sockets.broadcast('BLUE HAS WON THE GAME!');
+                                            sockets.broadcast('BLUE DEFENDERS HAVE WON THE GAME!');
 
                         sockets.broadcast('Arena Closed: No players can join!');
 
 
                         break;
-                     case 15: 
+                     case 12: 
                         choice = [[Class.closerarena], 12, 'a', 'norm'];
                                             sockets.broadcast('Closing!');
 

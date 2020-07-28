@@ -5025,7 +5025,9 @@ var speedcheckloop = (() => {
             util.warn('Total entity selfie-taking time: ' + selfietime);
             util.warn('Total time: ' + (activationtime + collidetime + movetime + playertime + maptime + physicstime + lifetime + selfietime));
             if (fails > 60) {
+               sockets.broadcast('Server overloaded! Restarting. . .');
                 util.error("FAILURE!");
+               arenaclosed=0;
                 //process.exit(1);
             }
         } else {

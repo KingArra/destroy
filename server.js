@@ -4730,7 +4730,6 @@ var maintainloop = (() => {
             };
             for (let i=1; i<2; i++) {
                 room['lgb' + i].forEach((log) => { b(log, i); }); 
-              
             }
         // Return the spawning function
         let bots = [];

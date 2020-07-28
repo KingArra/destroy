@@ -4626,42 +4626,42 @@ var maintainloop = (() => {
                 let choice = [];
                 switch (wave) {
                     case 0: 
-                        choice = [[Class.elite_gunner], 3, 'castle', 'nest'];
+                        choice = [[Class.elite_gunner], 2, 'castle', 'nest'];
 
                         break;
                     case 1: 
-                        choice = [[Class.elite_gunner], 3, 'castle', 'nest'];
+                        choice = [[Class.elite_gunner], 2, 'castle', 'nest'];
 
                       break;
                      case 2: 
-                        choice = [[Class.elite_gunner], 3, 'castle', 'nest'];
+                        choice = [[Class.elite_gunner], 2, 'castle', 'nest'];
 
                         break;
                      case 3: 
-                        choice = [[Class.elite_gunner], 6, 'castle', 'nest'];
+                        choice = [[Class.elite_gunner], 4, 'castle', 'nest'];
 
                     break;
                      case 4: 
-                        choice = [[Class.elite_gunner], 6, 'castle', 'nest'];
+                        choice = [[Class.elite_gunner], 4, 'castle', 'nest'];
 
                     break;
                      case 5: 
-                        choice = [[Class.elite_gunner], 12, 'castle', 'nest'];
+                        choice = [[Class.elite_gunner], 4, 'castle', 'nest'];
 
                         break;
                      case 6: 
-                        choice = [[Class.elite_gunner], 12, 'castle', 'nest'];
+                        choice = [[Class.elite_gunner], 6, 'castle', 'nest'];
 
                         break;
                      case 7: 
-                        choice = [[Class.elite_gunner], 10, 'castle', 'nest'];
+                        choice = [[Class.elite_gunner], 6, 'castle', 'nest'];
 
                      case 8: 
-                        choice = [[Class.elite_gunner], 10, 'castle', 'nest'];
+                        choice = [[Class.elite_gunner], 6, 'castle', 'nest'];
 
                         break;
                      case 9: 
-                        choice = [[Class.elite_gunner], 10, 'castle', 'nest'];
+                        choice = [[Class.elite_gunner], 6, 'castle', 'nest'];
 
                         break;
                      case 10: 

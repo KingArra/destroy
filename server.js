@@ -4672,7 +4672,7 @@ var maintainloop = (() => {
 
                         break;
                      case 11: 
-                        choice = [[Class.closerarena], 10, 'a', 'norm'];
+                        choice = [[Class.closerarena], 20, 'a', 'norm'];
                                             sockets.broadcast('BLUE HAS WON THE GAME!');
 
                         sockets.broadcast('Arena Closed: No players can join!');

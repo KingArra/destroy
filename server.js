@@ -4628,11 +4628,11 @@ var maintainloop = (() => {
                 let choice = [];
                 switch (wave) {
                     case 0: 
-                        choice = [[Class.elite_gunner], 3, 'castle', 'nest'];
+                        choice = [[Class.elite_gunner], 2, 'castle', 'nest'];
 
                         break;
                     case 1: 
-                        choice = [[Class.elite_gunner], 3, 'castle', 'nest'];
+                        choice = [[Class.palisade], 2, 'castle', 'nest'];
 
                       break;
                      case 2: 

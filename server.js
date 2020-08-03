@@ -4628,11 +4628,11 @@ var maintainloop = (() => {
                 let choice = [];
                 switch (wave) {
                     case 0: 
-                        choice = [[Class.elite_gunner], 2, 'castle', 'nest'];
+                        choice = [[Class.elite_gunner], 3, 'castle', 'nest'];
 
                         break;
                     case 1: 
-                        choice = [[Class.elite_gunner], 2, 'castle', 'nest'];
+                        choice = [[Class.elite_gunner], 3, 'castle', 'nest'];
 
                       break;
                      case 2: 
@@ -4668,12 +4668,12 @@ var maintainloop = (() => {
                         break;
                      case 10: 
                         choice = [[Class.elite_gunner], 15, 'castle', 'nest'];
-                                            sockets.broadcast('THIS IS THE FINAL WAVE');
+                                            sockets.broadcast('Final Wave: All out Attack!');
 
                         break;
                      case 11: 
                         choice = [[Class.closerarena], 10, 'a', 'norm'];
-                                            sockets.broadcast('YOUR TEAM HAS WON THE GAME!');
+                                            sockets.broadcast('BLUE HAS WON THE GAME!');
 
                         sockets.broadcast('Arena Closed: No players can join!');
 

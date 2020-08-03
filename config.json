@@ -20,15 +20,15 @@
   "ROOM_SETUP": [
     ["norm", "norm","norm", "norm","norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm"    ],
     ["norm", "norm","norm", "norm","norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm"    ],
-    ["norm", "norm","norm", "norm","nest", "nest", "nest", "nest", "nest", "norm", "norm", "norm",  "norm"    ],
+    ["norm", "norm","norm", "norm","norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm"    ],
+    ["norm", "norm","norm","norm", "norm", "nest", "norm", "nest", "norm", "norm", "norm", "norm",  "norm"    ],
+    ["norm", "norm","norm","norm", "norm", "nest", "norm", "nest", "norm", "norm", "norm", "norm",  "norm"    ],
+    ["norm", "norm","norm","nest", "nest", "bap1", "bap1", "bap1", "nest", "nest", "norm", "norm",  "norm"    ],
+    ["norm","norm","norm","norm", "norm", "bas1", "lgb1", "bas1", "norm", "norm", "norm",  "norm",  "norm"    ],
+    ["norm","norm","norm","nest", "nest", "bap1", "bap1", "bap1", "nest", "nest", "norm",  "norm",  "norm"    ],
+    ["norm","norm","norm","norm", "norm", "nest", "norm", "nest", "norm", "norm", "norm",  "norm",  "norm"    ],
+    ["norm", "norm","norm","norm", "norm", "nest", "norm", "nest", "norm", "norm", "norm", "norm",  "norm"    ],
     ["norm", "norm","norm","norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm"    ],
-    ["norm", "norm","nest","norm", "bap1", "bap1", "bap1", "bap1", "bap1", "norm", "nest", "norm",  "norm"    ],
-    ["norm", "norm","nest","norm", "bap1", "bap1", "bap1", "bap1", "bap1", "norm", "nest", "norm",  "norm"    ],
-    ["norm","norm","nest","norm", "bap1", "bas1", "lgb1", "bas1", "bap1", "norm", "nest",  "norm",  "norm"    ],
-    ["norm","norm","nest","norm", "bap1", "bap1", "bap1", "bap1", "bap1", "norm", "nest",  "norm",  "norm"    ],
-    ["norm","norm","nest","norm", "bap1", "bap1", "bap1", "bap1", "bap1", "norm", "nest",  "norm",  "norm"    ],
-    ["norm", "norm","norm","norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm"    ],
-    ["norm", "norm","norm","norm", "nest", "nest", "nest", "nest", "nest", "norm", "norm", "norm",  "norm"    ],
     ["norm","norm","norm", "norm","norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm",  "norm"    ],
     ["norm","norm","norm", "norm","norm", "norm", "norm", "norm", "norm", "norm", "norm",  "norm",  "norm"    ]
 

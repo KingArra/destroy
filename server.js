@@ -75,6 +75,7 @@ const room = {
     room.findType('bas4');
     room.findType('prti');
     room.findType('prto');
+
     room.findType('port');
     room.findType('lgb1');
     room.findType('roid');
@@ -4715,6 +4716,14 @@ var maintainloop = (() => {
             for (let i=1; i<5; i++) {
                 room['bas' + i].forEach((loc) => { f(loc, i); }); 
             }
+            let b = (log, team) => { 
+                let o = new Entity(log);
+                    o.define(Class.baseProtector);
+                    o.team = -team;
+                    o.color = [10, 11, 12, 15][team-1];
+            };
+            for (let i=1; i<2; i++) {
+                room['mbc' + i].forEach((log) => { b(log, i); }); 
                     };
             let c = (log, team) => { 
                 let o = new Entity(log);
@@ -4724,9 +4733,17 @@ var maintainloop = (() => {
             };
             for (let i=1; i<2; i++) {
                 room['lgb' + i].forEach((log) => { b(log, i); }); 
-              
+            };
+                      let maz = (loc, team) => { 
+                let o = new Entity(loc);
+                    o.define(Class.mazewall);
+                    o.team = -50;
+            };
+            for (let i=1; i<5; i++) {
+                room['bmaz'].forEach((loc) => { maz(loc, i); }); 
             }
         // Return the spawning function
+        
         let bots = [];
         return () => {
             let census = {

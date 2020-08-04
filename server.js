@@ -4733,14 +4733,7 @@ var maintainloop = (() => {
             };
             for (let i=1; i<2; i++) {
                 room['lgb' + i].forEach((log) => { b(log, i); }); 
-            };
-                      let maz = (loc, team) => { 
-                let o = new Entity(loc);
-                    o.define(Class.mazewall);
-                    o.team = -50;
-            };
-            for (let i=1; i<5; i++) {
-                room['bmaz'].forEach((loc) => { maz(loc, i); }); 
+         
             }
         // Return the spawning function
         

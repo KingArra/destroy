@@ -4715,14 +4715,6 @@ var maintainloop = (() => {
             for (let i=1; i<5; i++) {
                 room['bas' + i].forEach((loc) => { f(loc, i); }); 
             }
-            let b = (log, team) => { 
-                let o = new Entity(log);
-                    o.define(Class.baseProtector);
-                    o.team = -team;
-                    o.color = [10, 11, 12, 15][team-1];
-            };
-            for (let i=1; i<2; i++) {
-                room['mbc' + i].forEach((log) => { b(log, i); }); 
                     };
             let c = (log, team) => { 
                 let o = new Entity(log);

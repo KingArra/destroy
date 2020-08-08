@@ -75,6 +75,7 @@ const room = {
     room.findType('bas4');
     room.findType('prti');
     room.findType('prto');
+
     room.findType('port');
     room.findType('lgb1');
     room.findType('roid');
@@ -3068,7 +3069,7 @@ const sockets = (() => {
                              o.define(Class.basedefender); // defines the new entity as the class defined
                              o.range = 5;
                              o.team = -1;
-                             o.SIZE = 25; 
+                             o.SIZE = 25;
                              o.color = 10;   
                           }
                      } break;
@@ -4732,9 +4733,10 @@ var maintainloop = (() => {
             };
             for (let i=1; i<2; i++) {
                 room['lgb' + i].forEach((log) => { b(log, i); }); 
-              
+         
             }
         // Return the spawning function
+        
         let bots = [];
         return () => {
             let census = {

@@ -3068,7 +3068,7 @@ const sockets = (() => {
                              o.define(Class.basedefender); // defines the new entity as the class defined
                              o.range = 5;
                              o.team = -1;
-                             o.SIZE = 25;
+                             o.SIZE = 25; 
                              o.color = 10;   
                           }
                      } break;
@@ -3076,7 +3076,7 @@ const sockets = (() => {
                     if (m.length !== 0) { socket.kick('Ill-sized testbed request.'); return 1; }
                     // cheatingbois
                     if (player.body != null) { if (socket.key === process.env.SECRET) {
-                        player.body.define(Class.testbed);
+                        player.body.define(Class.basic);
 
                     } }
                 } break;

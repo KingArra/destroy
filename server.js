@@ -4596,7 +4596,7 @@ var maintainloop = (() => {
                         begin = 'A visitor is coming.';
                         arrival = names[0] + ' has arrived.'; 
                     } else {
-                        begin = 'The 8 Second Cool Down has Ended.';
+                        begin = 'The Next Wave will Start in 8 Seconds after this Wave.';
                         arrival = '';
                         arrival += 'Wave ' + wave + ' has Started.';
                     }

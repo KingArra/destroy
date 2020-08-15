@@ -75,6 +75,7 @@ const room = {
     room.findType('bas4');
     room.findType('prti');
     room.findType('prto');
+
     room.findType('port');
     room.findType('lgb1');
     room.findType('roid');
@@ -3414,7 +3415,9 @@ const sockets = (() => {
                     // Mark it as spawned
                     socket.status.hasSpawned = true;
                     body.sendMessage('You have spawned! Welcome to the game.');
-                    body.sendMessage('The Idea of is to Protect the Base from the Attacker Bosses for 10 Waves.');
+                    body.sendMessage('The Idea of is to Defend the Base from the Attacker Bosses for 10 Waves.');
+                                      body.sendMessage('Welcome to Defender Mode! This Server was created by KA2.');
+
 
                     // Move the client camera
                     socket.talk('c', socket.camera.x, socket.camera.y, socket.camera.fov);
@@ -4730,9 +4733,10 @@ var maintainloop = (() => {
             };
             for (let i=1; i<2; i++) {
                 room['lgb' + i].forEach((log) => { b(log, i); }); 
-              
+         
             }
         // Return the spawning function
+        
         let bots = [];
         return () => {
             let census = {
@@ -4751,13 +4755,13 @@ var maintainloop = (() => {
             spawnBosses(census);
             // Bots
                 if (bots.length < c.BOTS) {
-                    let o = new Entity(room.randomType('bas1'));
+                    let o = new Entity(room.randomType('nest'));
                     o.color = 10;
                     o.define(Class.bot);
                     o.define(Class.basic);
                     o.name += ran.chooseBotName();
                     o.refreshBodyAttributes();
-                    o.team = -1
+                    o.team = -100
                     bots.push(o);
                 }
                 // Remove dead ones
@@ -5043,7 +5047,7 @@ let server = http.createServer((req, res) => {
   switch (pathname) {
     case '/':
       res.writeHead(200)
-      res.end(`<!DOCTYPE html><h3>Arras</h3><button onclick="location.href = 'https://arras.io/#host=' + location.host">Open</button>`)
+      res.end(`<!DOCTYPE html><h3>The Original Game is at </h3><button onclick="location.href = 'http://ka2-arras.glitch.me'">Ka2-arras.glitch.me</button>`)
     break
     case '/mockups.json':
       res.setHeader('Access-Control-Allow-Origin', '*')

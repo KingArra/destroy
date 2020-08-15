@@ -3414,9 +3414,7 @@ const sockets = (() => {
                     // Mark it as spawned
                     socket.status.hasSpawned = true;
                     body.sendMessage('You have spawned! Welcome to the game.');
-                    body.sendMessage('The Idea of is to Defend the Base from the Attacker Bosses for 10 Waves.');
-                                      body.sendMessage('Welcome to Defender Mode! This Server was created by KA2.');
-
+                    body.sendMessage('The Idea of is to Protect the Base from the Attacker Bosses for 10 Waves.');
 
                     // Move the client camera
                     socket.talk('c', socket.camera.x, socket.camera.y, socket.camera.fov);
@@ -4672,7 +4670,7 @@ var maintainloop = (() => {
 
                         break;
                      case 11: 
-                        choice = [[Class.closerarena], 20, 'a', 'norm'];
+                        choice = [[Class.closerarena], 10, 'a', 'norm'];
                                             sockets.broadcast('BLUE HAS WON THE GAME!');
 
                         sockets.broadcast('Arena Closed: No players can join!');
@@ -5045,7 +5043,7 @@ let server = http.createServer((req, res) => {
   switch (pathname) {
     case '/':
       res.writeHead(200)
-      res.end(`<!DOCTYPE html><h3>The Original Game is at </h3><button onclick="location.href = 'http://ka2-arras.glitch.me'">Ka2-arras.glitch.me</button>`)
+      res.end(`<!DOCTYPE html><h3>Arras</h3><button onclick="location.href = 'https://arras.io/#host=' + location.host">Open</button>`)
     break
     case '/mockups.json':
       res.setHeader('Access-Control-Allow-Origin', '*')

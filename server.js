@@ -75,7 +75,6 @@ const room = {
     room.findType('bas4');
     room.findType('prti');
     room.findType('prto');
-
     room.findType('port');
     room.findType('lgb1');
     room.findType('roid');
@@ -4673,7 +4672,7 @@ var maintainloop = (() => {
 
                         break;
                      case 11: 
-                        choice = [[Class.closerarena], 10, 'a', 'norm'];
+                        choice = [[Class.closerarena], 20, 'a', 'norm'];
                                             sockets.broadcast('BLUE HAS WON THE GAME!');
 
                         sockets.broadcast('Arena Closed: No players can join!');
@@ -4733,10 +4732,9 @@ var maintainloop = (() => {
             };
             for (let i=1; i<2; i++) {
                 room['lgb' + i].forEach((log) => { b(log, i); }); 
-         
+              
             }
         // Return the spawning function
-        
         let bots = [];
         return () => {
             let census = {
@@ -4755,13 +4753,13 @@ var maintainloop = (() => {
             spawnBosses(census);
             // Bots
                 if (bots.length < c.BOTS) {
-                    let o = new Entity(room.randomType('nest'));
+                    let o = new Entity(room.randomType('bas1'));
                     o.color = 10;
                     o.define(Class.bot);
                     o.define(Class.basic);
                     o.name += ran.chooseBotName();
                     o.refreshBodyAttributes();
-                    o.team = -100
+                    o.team = -1
                     bots.push(o);
                 }
                 // Remove dead ones
